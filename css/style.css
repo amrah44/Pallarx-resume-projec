@@ -1,0 +1,279 @@
+
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-left {
+    background-image: url(../img/left-menu-background.jpg);
+    width: 260px;
+    height: 100vh;
+    position: fixed;
+}
+
+.logo>img {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    height: 82px;
+}
+
+ul.menu {
+    list-style: none;
+    font-size: 13px;
+    font-family: 'Quicksand', 'Questrial', sans-serif;
+}
+
+ul.menu>li>a {
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    color: #fff;
+}
+
+ul.menu>li.menu-item {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+
+
+ul.menu>li.menu-item-active>a {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: #d34e35;
+}
+
+
+ul.menu>li.menu-item>a:hover {
+    color: #d34e35;
+    /* font-size: 13px; */
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+ul.menu>li.menu-item-active>a:before {
+    position: relative;
+    right: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f015";
+}
+
+ul.menu>li.icon-pages>a:before {
+    position: relative;
+    right: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f02b";
+}
+
+ul.menu>li.icon-pages>a:after {
+    position: relative;
+    float: right;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f068";
+}
+
+ul.menu>li.icon-blog>a:before {
+    position: relative;
+    right: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f0f4";
+}
+
+ul.menu>li.icon-blog>a:after {
+    position: relative;
+    float: right;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f067";
+}
+
+ul.menu>li.icon-portfolio>a:before {
+    position: relative;
+    right: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f03e";
+}
+
+ul.menu>li.icon-portfolio>a:after {
+    position: relative;
+    float: right;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f067";
+}
+
+ul.menu>li.icon-contact>a:before {
+    position: relative;
+    right: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f0e0";
+}
+
+ul.menu>li.icon-cart>a:before {
+    position: relative;
+    right: 10px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 13px;
+    content: "\f07a";
+}
+
+ul.open-submenu>li {
+    list-style: none;
+    margin: 9px 9px;
+    padding-left: 30px;
+    /* color: #fff; */
+}
+
+ul.open-submenu>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul.open-submenu>li>a:hover {
+    color: #d34e35;
+    font-size: 13px;
+    transition-property: color;
+    transition-duration: 0.7s;
+}
+
+.soc-md .text {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Quicksand', 'Questrial', sans-serif;
+}
+
+.links {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+.links>ul>li{
+    list-style-type: none;
+    /* float: left; */
+    display: inline-block;
+}
+.links>ul>li>a {
+    margin-left: 10px;
+    color: #fff;
+}
+
+a.link-tw:hover {
+    color: dimgrey;
+    font-size: 13px;
+}
+
+a.link-in:hover {
+    color: dimgrey;
+    font-size: 13px;
+}
+
+a.link-fb:hover {
+    color: dimgrey;
+    font-size: 13px;
+}
+
+a.link-ins:hover {
+    color: dimgrey;
+    font-size: 13px;
+}
+
+
+
+.content {
+    background-color: #fff;
+    max-width: 100%;
+    min-height: 100vh;
+    margin-left: 260px;
+}
+
+.product-one {
+    width: 350px;
+    float: left;
+    height: auto;
+    border: 2px solid whitesmoke;
+}
+
+.product-img>img {
+    width: 350px;
+    height: 350px;
+}
+
+.overlay{
+    background-color: ;
+}
+.product-info{
+    width: 350px;
+    float: left;
+}
+
+.product-left{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.product-left>a{
+    text-decoration: none;
+}
+
+span{
+    display: block;
+}
+
+.text-name{
+    color: #555555;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.text-name:hover{
+    color: #d34e35;
+    transition-property: color;
+    transition-duration: 0.4s;
+}
+.price{
+    margin-top: 5px;
+    color: tomato;
+    font-weight: 700;    
+}
+
+.product-right{
+    float: right;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+ .button-add-to-cart{
+     width: 135px;
+     height: 40px;
+     background-color: #F7F9F9;
+     border: none;
+ }
